@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Medyseva</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="dist/script.js"></script>
+    <link rel="stylesheet" href="modal.css">
+</head>
+
+<body>
+    <nav class="fixed-top">
+        <div class="logo">
+            <img src="images/logo.png">
+        </div>
+        <div><input type="checkbox" id="click">
+            <label for="click" class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul>
+                <li><a  href="#">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#joinus">Join Us</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#test">Testimonials</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1 style="font-size:50px">Medyseva</h1>
+            <p>Quality Healthcare at affordable price through Telemedicine</p>
+            <button class="button btnFade btnWhite"
+                onclick="document.getElementById('id02').style.display='block'">Learn More</button>
+        </div>
+    </div>
+    <div class="container-fluid" id="aboutus">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="images/about.jpg" width="100%" height="100%">
+            </div>
+            <div class="col-md-9" style="background-color: #ECEBEB;">
+                <div style="padding: 5%">
+                    <h3>About Us</h3>
+                    <hr class="border1" style="margin-left: 0;">
+                    <p>Medyseva is a healthcare startup focusing on Telemedicine in Rural India. It seeks to become the
+                        ultimate healthcare partner of all citizens such that they can get access to high quality
+                        healthcare services with ease and at affordable prices.Medyseva bridges the gap between the
+                        doctors and patients through e-clinics having state-of-the-art technology, which cover the
+                        entire spectrum of services that are needed to keep one healthy - from having virtual
+                        consultations to procuring medicines, from booking diagnostic tests to getting surgeries, from
+                        digitizing medical records to buying the right insurance. </p>
+                    <button type="button" class="button btnFade btnBlue" data-toggle="modal"
+                        data-target=".bd-example-modal-lg" style="cursor: pointer;">Know More</button>
+
+                    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
+                        aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body" style="height: 500px; overflow-y: scroll;">
+                                    <p>Medyseva has identified several problems faced by the people in small towns and
+                                        villages, pertaining to healthcare, and seeks to solve most of them in the short
+                                        run.</p>
+                                    <p><span style="color: #4D509A ">Problem:</span> Though there are doctors available
+                                        in
+                                        rural areas, but they are mostly general physicians. There is a dearth of
+                                        specialists.</p>
+                                    <p><span style="color: #4D509A ">Our Solution:</span> Medyseva connects people in
+                                        rural
+                                        areas to specialists residing in urban areas via teleconferencing. In this way,
+                                        people do not need to travel to far off places to get a medical treatment. Also,
+                                        many people do not have much knowledge about who to consult and how to go about
+                                        the
+                                        process. Medyseva eliminates all such hassles and directly connects the people
+                                        to
+                                        excellent doctors in each field.
+                                    <p><span style="color: #4D509A ">Problem:</span> Though there are doctors available
+                                        in
+                                        rural areas, but they are mostly general physicians. There is a dearth of
+                                        specialists.</p>
+                                    <p><span style="color: #4D509A ">Our Solution:</span> Medyseva connects people in
+                                        rural
+                                        areas to specialists residing in urban areas via teleconferencing. In this way,
+                                        people do not need to travel to far off places to get a medical treatment. Also,
+                                        many people do not have much knowledge about who to consult and how to go about
+                                        the
+                                        process. Medyseva eliminates all such hassles and directly connects the people
+                                        to
+                                        excellent doctors in each field.
+
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6" style="background-color: #015C93;color: #fff;padding: 5% 3% 5% 3%;">
+                <h3>Mission</h3>
+                <hr class="border2" style="margin-left: 0;">
+                <p>To ensure that every citizen of India has access to high quality doctors and medical services at
+                    their convenience and at affordable prices.</p>
+            </div>
+            <div class="col-md-6" style="background-color: #739FB8;color: #fff;padding: 5% 3% 5% 3%;">
+                <h3>Vision</h3>
+                <hr class="border2" style="margin-left: 0;">
+                <p>To ensure that every citizen of India has access to high quality doctors and medical services at
+                    their convenience and at affordable prices.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: #73BDEA;padding-bottom: 5%;">
+        <h3 style="text-align: center;color: #015c93;padding-top: 3%;">Leadership team</h3>
+        <hr class="border3">
+        <p style="text-align: center;color: #5e5e5e;width: 70%;margin: auto;padding: 3% 0% 3% 0%;">To ensure that every
+            citizen of India has access to high quality doctors and medical services at their convenience and at
+            affordable prices.</p>
+        <div class="row" style="text-align: center;">
+            <div class="col-md-4" style="padding: 0;margin-top: 2rem;">
+                <div class="imghover" data-tooltip="Mehul" style="width: fit-content; margin: 0 auto; "><img
+                        src="images/team/Mehul_founder.png" data-toggle="modal" data-target=".imgpopup_modal"></div>
+                <h5 style="color: #464646;padding: 15px 0px 10px 0px;">Mehul -Founder</h5>
+                <a href="#"><img src="images/team/linkedin.png"></a>
+            </div>
+            <div class="col-md-4" style="padding: 0;margin-top: 2rem;">
+                <div class="imghover" data-tooltip="Vishesh" style="width: fit-content; margin: 0 auto; "><img
+                        src="images/team/Vishesh_Founder.png" data-toggle="modal" data-target=".imgpopup_modal"></div>
+
+                <h5 style="color: #464646;padding: 15px 0px 10px 0px;">Vishesh - Founder</h5>
+                <a href="#"><img src="images/team/linkedin.png"></a>
+            </div>
+            <div class="col-md-4" style="padding: 0;margin-top: 2rem;">
+                <div class="imghover" data-tooltip="Shruti" style="width: fit-content; margin: 0 auto; "><img
+                        src="images/team/Shruti_Founder.png" data-toggle="modal" data-target=".imgpopup_modal"></div>
+
+                <h5 style="color: #464646;padding: 15px 0px 10px 0px;">Shruti - Founder</h5>
+                <a href="#"><img src="images/team/linkedin.png"></a>
+            </div>
+
+            <div class="modal fade imgpopup_modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Medyseva has identified several problems faced by the people in small towns and villages,
+                                pertaining to healthcare, and seeks to solve most of them in the short run.in small
+                                towns and villages, pertaining to healthcare, and seeks to solve most of them in the
+                                short run.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="services">
+        <div class="row">
+            <div class="col-md-3" style="padding: 0;">
+                <img src="images/services.png" width="100%" height="100%">
+            </div>
+            <div class="col-md-9" style="background-color: #ffffff;">
+                <div style="padding: 2.5%">
+                    <h3 style="color: #015C93;">Services</h3>
+                    <hr class="border1" style="margin-left: 0;">
+                    <p>Medyseva offers you every service you could possibly need in your journey to achieve great health
+                        and wellness. We are there with you at every step of the way. </p>
+                    <div>
+                        <button
+                            style="background: #015C93; border-radius: 50%;height: 44px;width: 44px;border: none;cursor: pointer;"><img
+                                src="images/assets/arrow3.png" alt=""></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="position: relative;">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-9" style="background-color: #ECEBEB;">
+                            <div style="padding: 3%;width: 85%;">
+                                <h3 style="color: #1E1C89;margin-bottom: 1rem;">Consultation</h3>
+                                <p>The primary service provided by Medyseva is online/ teleconsultation. Our goal is to
+                                    make the
+                                    best doctors and specialists available to everyone, irrespective of their location
+                                    or resources.
+                                    Our consultation fee is minimal so that this basic right to healthcare is availed by
+                                    all. </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3" style="padding: 0;">
+                            <img src="images/consultation.png" width="100%" height="100%">
+                        </div>
+                    </div>
+                    <div class="d-flex" style="position: absolute; bottom: 0; left: 50%;margin-bottom: 10px;">
+                        <button href="#carouselExampleControls" role="button" data-slide="prev"
+                            style="background: #015C93;cursor: pointer ; border-radius: 4px;padding: 10px;"> <img
+                                src="images/assets/arrow1.png" alt=""> </button>
+                        <span style="font-size: 32px;margin: 0 10px;">01</span>
+                        <button href="#carouselExampleControls" role="button" data-slide="next"
+                            style="background: #015C93;cursor: pointer ; border-radius: 4px;padding: 10px;"> <img
+                                src="images/assets/arrow2.png" alt=""> </button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-9" style="background-color: #ECEBEB;">
+                            <div style="padding: 3%;width: 85%;">
+                                <h3 style="color: #1E1C89;margin-bottom: 1rem;">Consultation</h3>
+                                <p>The primary service provided by Medyseva is online/ teleconsultation. Our goal is to
+                                    make the
+                                    best doctors and specialists available to everyone, irrespective of their location
+                                    or resources.
+                                    Our consultation fee is minimal so that this basic right to healthcare is availed by
+                                    all. </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3" style="padding: 0;">
+                            <img src="images/assets/sliderimg2.png" width="100%" height="100%">
+                        </div>
+                    </div>
+                    <div class="d-flex" style="position: absolute; bottom: 0; left: 50%;margin-bottom: 10px;">
+                        <button href="#carouselExampleControls" role="button" data-slide="prev"
+                            style="background: #015C93;cursor: pointer ; border-radius: 4px;padding: 10px;"> <img
+                                src="images/assets/arrow1.png" alt=""> </button>
+                        <span style="font-size: 32px;margin: 0 10px;">02</span>
+                        <button href="#carouselExampleControls" role="button" data-slide="next"
+                            style="background: #015C93;cursor: pointer ; border-radius: 4px;padding: 10px;"> <img
+                                src="images/assets/arrow2.png" alt=""> </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid" style="background-color: #73BDEA;padding-bottom: 5%;">
+        <h3 style="text-align: center;color: #015c93;padding-top: 3%;">Doctors On Board</h3>
+        <hr class="border3">
+        <p style="text-align: center;color: #5e5e5e;width: 70%;margin: auto;padding: 3% 0% 3% 0%;">To ensure that every
+            citizen of India has access to high quality doctors and medical services at their convenience and at
+            affordable prices.</p>
+        <div class="row" style="text-align: center;">
+            <div class="col-md-4" style="margin-top: 2rem;">
+                <div class="imghover" data-tooltip="Gitika" style="width: fit-content; margin: 0 auto; "><img  data-toggle="modal" data-target=".imgpopup_modal" src="images/team/Gitika_doctor.png"></div>
+                
+                <h5 style="color: #464646;padding-top: 8px;">Gitika</h5>
+                <p>MBBS MD( DVL) Fellowship in Cosmetology</p>
+            </div>
+            <div class="col-md-4" style="margin-top: 2rem;">
+                <div class="imghover" data-tooltip="Apoorva" style="width: fit-content; margin: 0 auto; "><img  data-toggle="modal" data-target=".imgpopup_modal" src="images/team/Apoorva_doctor.png"></div>
+                
+                <h5 style="color: #464646;padding-top: 8px;">Apoorva</h5>
+            </div>
+            <div class="col-md-4" style="margin-top: 2rem;">
+                <div class="imghover" data-tooltip="kanika" style="width: fit-content; margin: 0 auto; "><img  data-toggle="modal" data-target=".imgpopup_modal" src="images/team/Kanika_doctor.png"></div>
+                
+                <h5 style="color: #464646;padding-top: 8px;">Kanika</h5>
+            </div>
+            <button type="button" class="button btnFade btnYellow"
+                style="margin-right: 100px;margin-left: auto;cursor: pointer;" data-toggle="modal"
+                data-target=".doctor_modal">Know More</button>
+            <div class="modal fade doctor_modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img style="width: 100%;height: 80%;" src="images/assets/e1.png" alt="">
+                                    <span>Maternity</span>
+                                </div>
+                                <div class="col-4">
+                                    <img style="width: 100%;height: 80%;" src="images/assets/e2.png" alt="">
+                                    <span>Maternity</span>
+                                </div>
+                                <div class="col-4">
+                                    <img style="width: 100%;height: 80%;" src="images/assets/e3.png" alt="">
+                                    <span>Maternity</span>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-4">
+                                    <img style="width: 100%;height: 80%;" src="images/assets/e1.png" alt="">
+                                    <span>Maternity</span>
+                                </div>
+                                <div class="col-4">
+                                    <img style="width: 100%;height: 80%;" src="images/assets/e2.png" alt="">
+                                    <span>Maternity</span>
+                                </div>
+                                <div class="col-4">
+                                    <img style="width: 100%;height: 80%;" src="images/assets/e3.png" alt="">
+                                    <span>Maternity</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: #fff;padding-bottom: 5%;">
+        <h3 style="text-align: center;color: #015c93;padding-top: 3%;">Meet Our Best Specialists </h3>
+        <hr class="border3">
+        <p style="text-align: center;color: #5e5e5e;width: 70%;margin: auto;padding: 3% 0% 3% 0%;">To ensure that every
+            citizen of India has access to high quality doctors and medical services at their convenience and at
+            affordable prices.</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3" style="padding: 16px;">
+                    <img style="width: 100%;" src="images/team/specialists.png">
+                    <div
+                        style="height: 160px;padding: 12px 0px 18px 12px;border-left: 1px solid rgba(0, 0, 0, 0.25);border-right: 1px solid rgba(0, 0, 0, 0.25);border-bottom: 1px solid rgba(0, 0, 0, 0.25);border-radius: 0px 0px 10px 10px;">
+                        <h5 style="color: #464646;">Apoorv Dua</h5>
+                        <h6>Master Of Surgery- Orthopaedics</h6>
+                        <p>Orthopedics</p>
+                    </div>
+                </div>
+                <div class="col-md-3" style="padding: 16px;">
+                    <img style="width: 100%;" src="images/team/specialists.png">
+                    <div
+                        style="height: 160px;padding: 12px 0px 18px 12px;border-left: 1px solid rgba(0, 0, 0, 0.25);border-right: 1px solid rgba(0, 0, 0, 0.25);border-bottom: 1px solid rgba(0, 0, 0, 0.25);border-radius: 0px 0px 10px 10px;">
+                        <h5 style="color: #464646;">Manas Naik</h5>
+                        <h6>MD- Paediatrics</h6>
+                        <p>Pediatrics</p>
+                    </div>
+                </div>
+                <div class="col-md-3" style="padding: 16px;">
+                    <img style="width: 100%;" src="images/team/specialists.png">
+                    <div
+                        style="height: 160px;padding: 12px 0px 18px 12px;border-left: 1px solid rgba(0, 0, 0, 0.25);border-right: 1px solid rgba(0, 0, 0, 0.25);border-bottom: 1px solid rgba(0, 0, 0, 0.25);border-radius: 0px 0px 10px 10px;">
+                        <h5 style="color: #464646;">Anagha Sinha</h5>
+                        <h6>Diloma In Psychiatry (D.P.M.)</h6>
+                        <p>Psychiatry</p>
+                    </div>
+                </div>
+                <div class="col-md-3" style="padding: 16px;">
+                    <img style="width: 100%;" src="images/team/specialists.png">
+                    <div
+                        style="height: 160px;padding: 12px 0px 18px 12px;border-left: 1px solid rgba(0, 0, 0, 0.25);border-right: 1px solid rgba(0, 0, 0, 0.25);border-bottom: 1px solid rgba(0, 0, 0, 0.25);border-radius: 0px 0px 10px 10px;">
+                        <h5 style="color: #464646;">Sheetal Khandelwal</h5>
+                        <h6>Bachelor Of Dental Surgery</h6>
+                        <p>Dentist</p>
+                    </div>
+                </div>
+                <button class="button btnFade btnYellow">Know More</button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="joinus">
+        <div class="row">
+            <div class="col-md-3"  style="padding: 0;">
+                <img src="images/services.png" width="100%" height="100%">
+            </div>
+            <div class="col-md-9" style="background: #015C93;color: #fff;">
+                <div style="padding: 3%">
+                    <h3>Join Us</h3>
+                    <hr class="border1" style="margin-left: 0;">
+                    <h5>Are you a doctor who believes in our vision? Do join us!</h5>
+                    <p style="color: #D9D9D9;margin-bottom: 0.5rem;">You just need a couple of hours in a day and your
+                        laptop. And you don’t even need to step out of your home!</p>
+                    <p style="color: #D9D9D9;margin-bottom: 0.5rem;">For further details, call us at +91 4785637856</p>
+                    <p style="color: #D9D9D9;margin-bottom: 0.5rem;">Or send in your resume to - example@gmail.com</p>
+                    <button type="button" class="button btnFade btnYellow" style="margin-bottom: 4%;cursor: pointer;"
+                        data-toggle="modal" data-target=".apply_modal">Apply Now</button>
+
+                    <div class="modal fade apply_modal" tabindex="-1" role="dialog" aria-labelledby="applylabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div style="color: #4D509A;font-size: 24px;margin: 0 auto;text-align: center;">Apply
+                                        Now
+                                        <hr class="border1" style="width: 10%;margin-top: 0.5rem;">
+                                    </div>
+                                    <div style="color: #575757;text-align: center;">Submit the below form and we’ll get
+                                        back to you.</div>
+                                    <div class="row" style="margin-top: 1rem;">
+                                        <div class="col-6 DoctorSection"
+                                            style="background: #015C93; text-align: center;padding: 10px 0;cursor: pointer;">
+                                            Doctor</div>
+                                        <div class="col-6 OpenSection"
+                                            style="background: #BDD2DE;text-align: center;padding: 10px 0;color: black;cursor: pointer; ">
+                                            Open Center</div>
+                                    </div>
+                                    <div style="width: 80%;margin: 2rem auto;">
+                                        <form class="doctorForm">
+                                            <div class="form-group">
+                                                <label for="Doctor_name" style="color: black;">Doctor Name</label>
+                                                <input type="text" class="form-control" id="Doctor_name"
+                                                    placeholder="Enter your name">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="Specialization" style="color: black;">Specialization</label>
+                                                <input type="text" class="form-control" id="Specialization"
+                                                    placeholder="Enter Specialization">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="Contact" style="color: black;">Contact Number</label>
+                                                <input type="number" class="form-control" id="Contact"
+                                                    placeholder="Enter your number">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="email" style="color: black;">Email</label>
+                                                <input type="email" class="form-control" id="email"
+                                                    placeholder="Enter your email">
+                                            </div>
+
+                                            <div class="d-flex flex-column align-items-center justify-content-center"
+                                                style="margin-top: 1rem;"><button
+                                                    style="padding: 10px;border: none;background-color: yellow;color: black;"
+                                                    type="submit" class="btn btn-primary">Submit</button>
+                                                <small style="margin-top: 1rem;" class="form-text text-muted">please
+                                                    fill above fields</small>
+                                            </div>
+                                        </form>
+                                        <form class="openForm" style="display: none;">
+                                            <div class="form-group">
+                                                <label for="name" style="color: black;">Name</label>
+                                                <input type="text" class="form-control" id="name"
+                                                    placeholder="Enter your name">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="Number" style="color: black;">Phone Number</label>
+                                                <input type="number" class="form-control" id="Number"
+                                                    placeholder="Enter your number">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="address" style="color: black;">Address</label>
+                                                <input type="text" class="form-control" id="address"
+                                                    placeholder="Enter your address">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="email" style="color: black;">Email</label>
+                                                <input type="email" class="form-control" id="email"
+                                                    placeholder="Enter your email">
+                                            </div>
+
+                                            <div class="d-flex flex-column align-items-center justify-content-center"
+                                                style="margin-top: 1rem;"><button
+                                                    style="padding: 10px;border: none;background-color: yellow;color: black;"
+                                                    type="submit" class="btn btn-primary">Submit</button>
+                                                <small style="margin-top: 1rem;" class="form-text text-muted">please
+                                                    fill above fields</small>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="blogs"
+        style=" background-image: linear-gradient(180deg, white 50%,#E9EAFF 50%) ;  padding: 4% 0% 3% 0%;">
+
+        <div class="container">
+            <h3 style="color: #015c93;">Blogs</h3>
+            <hr class="border1" style="margin-left: 0;">
+            <p style="color: #5e5e5e;width: 100%;padding: 2% 0% 2% 0%;text-align: center;">To ensure that every citizen of India has access
+                to high quality doctors and medical services at their convenience and at affordable prices.</p>
+            <div class="row">
+                <div class="col-md-3" style="padding: 16px">
+                    <img style="width: 100%;" src="images/team/specialists.png">
+                    <div
+                        style="height: 160px;padding: 12px 0px 18px 12px;background-color: #fff;border-radius: 0px 0px 10px 10px;">
+                        <h5 style="color: #464646;">Apoorv Dua</h5>
+                        <h6>Master Of Surgery- Orthopaedics</h6>
+                        <p>Orthopedics</p>
+                    </div>
+                </div>
+                <div class="col-md-3" style="padding: 16px">
+                    <img style="width: 100%;" src="images/team/specialists.png">
+                    <div
+                        style="height: 160px; padding: 12px 0px 18px 12px;background-color: #fff;border-radius: 0px 0px 10px 10px;">
+                        <h5 style="color: #464646;">Manas Naik</h5>
+                        <h6>MD- Paediatrics</h6>
+                        <p>Pediatrics</p><br>
+                    </div>
+                </div>
+                <div class="col-md-3" style="padding: 16px;">
+                    <img style="width: 100%;" src="images/team/specialists.png">
+                    <div
+                        style="height: 160px;padding: 12px 0px 18px 12px;background-color: #fff;border-radius: 0px 0px 10px 10px;">
+                        <h5 style="color: #464646;">Anagha Sinha</h5>
+                        <h6>Diloma In Psychiatry (D.P.M.)</h6>
+                        <p>Psychiatry</p><br>
+                    </div>
+                </div>
+                <div class="col-md-3" style="padding: 16px;">
+                    <img style="width: 100%;" src="images/team/specialists.png">
+                    <div
+                        style="height: 160px;padding: 12px 0px 18px 12px;background-color: #fff;border-radius: 0px 0px 10px 10px;">
+                        <h5 style="color: #464646;">Sheetal Khandelwal</h5>
+                        <h6>Bachelor Of Dental Surgery</h6>
+                        <p>Dentist</p><br>
+                    </div>
+                </div>
+                <button class="button btnFade btnYellow">Know More</button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="test" style="background-color: #73BDEA;padding-bottom: 3%;">
+        <h3 style="text-align: center;color: #015c93;padding: 2%;">Testimonials</h3>
+        <p style="text-align: center;color: #5e5e5e;">To ensure that every citizen of India has access to high quality
+            doctors and medical services at their convenience and at affordable prices.</p>
+        <div class="row" style="text-align: center;">
+            <div class="col-md-4" style="margin-top: 2rem;">
+                <div class="imghover" data-tooltip="Mrs.Anglena" style="width: fit-content; margin: 0 auto; "><img data-toggle="modal" data-target=".imgpopup_modal" src="images/team/img1.png"></div>
+                
+            </div>
+            <div class="col-md-4" style="margin-top: 2rem;" >
+                <div class="imghover" data-tooltip="Mr.Pankaj" style="width: fit-content; margin: 0 auto; "><img data-toggle="modal" data-target=".imgpopup_modal" src="images/team/img2.png"></div>
+                
+            </div>
+            <div class="col-md-4" style="margin-top: 2rem;">
+                <div class="imghover" data-tooltip="Mr.Aman" style="width: fit-content; margin: 0 auto; "><img data-toggle="modal" data-target=".imgpopup_modal" src="images/team/img3.png"></div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid contactusContainer" style="background-color: #ECEBEB;padding: 100px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5" style="margin-right: 1rem;">
+                    <img src="images/Contact.png" width="100%" height="100%">
+                </div>
+                <div class="col-md-6" style="margin-left: auto;">
+                    <div style="padding: 2%;">
+                        <div>
+                            <h3 style="font-size: 24px; color: #4185AE;">Contact Us</h3>
+                            <hr class="border3" style="margin-left: 0;">
+                        </div>
+                        <p style="margin-top: 2rem;color: #4D4D4D;font-size: 24px;"><span
+                                style="font-weight: bold;display: block;color: black;">Registered
+                                Office:</span>Medyserve Technologies
+                            18A Electronic Complex,
+                            Pardesipura,
+                            Indore 452010 </p>
+                        <p style="margin-top: 1rem;color: black;font-size: 24px;">Mobile Number :+91 75669 75666</p>
+                        <p style="margin-top: 1rem;color: black;font-size: 24px;">E-Mail ID : info@medyseva.com</p>
+                        <button type="button" class="button btnFade btnYellow" style="cursor: pointer;"
+                            data-toggle="modal" data-target=".getintouch_modal">Get in touch</button>
+
+                        <div class="modal fade getintouch_modal" tabindex="-1" role="dialog"
+                            aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+
+                                    <div class="modal-body">
+                                        <div style="color: #4D509A;font-size: 24px;margin: 0 auto;text-align: center;">
+                                            Get In Touch
+                                            <hr class="border1" style="width: 10%;margin-top: 0.5rem;">
+                                        </div>
+                                        <div style="color: #575757;text-align: center;"> We'd like to hear from you.
+                                            Leave your message here and we will get back to you.</div>
+
+                                        <div style="width: 80%;margin: 2rem auto;">
+                                            <form>
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label for="name">Name</label>
+                                                            <input type="text" class="form-control" id="name"
+                                                                placeholder="Enter your name">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label for="email">Email</label>
+                                                            <input type="email" class="form-control" id="email"
+                                                                placeholder="Enter your email">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="form-group">
+                                                            <label for="message">Message</label>
+                                                            <textarea class="form-control" id="message"
+                                                                rows="3"></textarea>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex flex-column align-items-center justify-content-center"
+                                                    style="margin-top: 1rem;"><button
+                                                        style="padding: 10px;border: none;background-color: yellow;color: black;"
+                                                        type="submit" class="btn btn-primary">Send</button>
+
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.346272907371!2d75.86374301427715!3d22.75252723207758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3963029cbb1f85b3%3A0xde739c14fe624bae!2s18-A%2C%20Electronic%20Complex%2C%20Pardesipura%2C%20Indore%2C%20Madhya%20Pradesh%20452010!5e0!3m2!1sen!2sin!4v1622998277841!5m2!1sen!2sin"
+            width="100%" height="400" style="border:4px solid #fefefe;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <!-- Footer -->
+    <footer class="section bg-footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3" style="padding: 0;">
+                    <div>
+                        <img src="images/footer-logo.png" width="80%">
+                    </div>
+                </div>
+                <div class="col-lg-3" style="padding-left: 30px">
+                    <div class="">
+                        <ul class="list-unstyled footer-link">
+                            <li><a href="" style="text-decoration:none;">About Us</a></li>
+                            <li><a href="" style="text-decoration:none;">Services</a></li>
+                            <li><a href="" style="text-decoration:none;">Testimonials</a></li>
+                            <li><a href="" style="text-decoration:none;">Blogs</a></li>
+                            <li><a href="" style="text-decoration:none;">Join Us</a></li>
+                            <li><a href="" style="text-decoration:none;">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3" style="padding-left: 30px">
+                    <div class="">
+                        <ul class="list-unstyled footer-link">
+                            <li><a href="" style="text-decoration:none;">Privacy & Policy </a></li>
+                            <li><a href="" style="text-decoration:none;">Terms & Conditions</a></li>
+                            <li><a href="" style="text-decoration:none;">FAQ's</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3" style="padding-left: 30px">
+                    <div class="">
+                        <h5 style="color: #fff">Follow Us</h5>
+                        <div class="mt-3">
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><a
+                                        href="https://www.instagram.com/medy.seva/?utm_medium=copy_link"
+                                        target="_blank"><img src="images/social_icons/Instagram.png"></a></li>
+                                <li class="list-inline-item"><a href="https://m.facebook.com/Medyseva-102036425437639/"
+                                        target="_blank"><img src="images/social_icons/Facebook.png"></a></li>
+                                <li class="list-inline-item"><a href="#"><img src="images/social_icons/Twitter.png"></a>
+                                </li>
+                                <li class="list-inline-item"><a href="#"><img
+                                            src="images/social_icons/Linkedin.png"></a></li>
+                            </ul>
+                        </div>
+                        <p class="contact-info mt-4"><a href="tel:+91 75669 75666"
+                                style="text-decoration: none;color: #fff;">Mobile Number : +91 75669 75666</a></p>
+                        <p class="contact-info"><a href="mailto:info@medyseva.com"
+                                style="text-decoration: none;color: #fff;">E-Mail ID : info@medyseva.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="text-center mt-3">
+            <p class="footer-alt mb-0 f-14" style="color: #fff">Copyright 2020. Medyseva</p>
+        </div>
+    </footer>
+
+    <div id="id01" class="w3-modal">
+        <div class="w3-modal-content">
+            <div class="w3-container">
+                <span onclick="document.getElementById('id01').style.display='none'"
+                    class="w3-button w3-display-topright">&times;</span>
+                <p>Some text. Some text. Some text.</p>
+                <p>Some text. Some text. Some text.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div id="id02" class="w3-modal">
+        <div class="w3-modal-content">
+            <div class="w3-container" style="padding: 10px">
+                <span onclick="document.getElementById('id02').style.display='none'"
+                    class="w3-button w3-display-topright">&times;</span>
+                <p>02020202Some text. Some text. Some text.</p>
+                <p>Some text. Some text. Some text.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
