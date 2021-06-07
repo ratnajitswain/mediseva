@@ -26,22 +26,43 @@
                 <i class="fas fa-bars"></i>
             </label>
             <ul>
-                <li><a  href="#">About Us</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#joinus">Join Us</a></li>
-                <li><a href="#blogs">Blogs</a></li>
-                <li><a href="#test">Testimonials</a></li>
-                <li><a href="#">Login</a></li>
+                <li class="nav-item">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      About Us
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Mission and Vision</a>
+                      <a class="dropdown-item" href="#">Leadership Team</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Services
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Specialities</a>
+                      <a class="dropdown-item" href="#">Doctors on Board</a>
+                  </li>
+                <li class="nav-item"><a class="nav-link" href="#joinus">Join Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#blogs">Blogs</a></li>
+                <li class="nav-item"><a class="nav-link" href="#test">Testimonials</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
             </ul>
         </div>
     </nav>
     <div class="hero-image">
-        <div class="hero-text">
-            <h1 style="font-size:50px">Medyseva</h1>
-            <p>Quality Healthcare at affordable price through Telemedicine</p>
-            <button class="button btnFade btnWhite"
-                onclick="document.getElementById('id02').style.display='block'">Learn More</button>
+        
+        <div class="row d-flex justify-content-center" id="bannerRow">
+            
+                <img class="bannerImage" src="images/image.png">
+            
+            <div class="hero-text">
+                <h1 style="font-size:54px;line-height: 75px;">Medyseva</h1>
+                <p>Quality Healthcare at affordable price through Telemedicine</p>
+                <!-- <button class="button btnFade btnWhite"
+                    onclick="document.getElementById('id02').style.display='block'">Learn More</button> -->
+            </div>
         </div>
+        
     </div>
     <div class="container-fluid" id="aboutus">
         <div class="row">
@@ -123,8 +144,7 @@
             <div class="col-md-6" style="background-color: #739FB8;color: #fff;padding: 5% 3% 5% 3%;">
                 <h3>Vision</h3>
                 <hr class="border2" style="margin-left: 0;">
-                <p>To ensure that every citizen of India has access to high quality doctors and medical services at
-                    their convenience and at affordable prices.</p>
+                <p>To be the nearest, affordable and the most reliable healthcare destination for the rural citizens of India.</p>
             </div>
         </div>
     </div>
@@ -136,43 +156,24 @@
             affordable prices.</p>
         <div class="row" style="text-align: center;">
             <div class="col-md-4" style="padding: 0;margin-top: 2rem;">
-                <div class="imghover" data-tooltip="Mehul" style="width: fit-content; margin: 0 auto; "><img
+                <div class="imghover" data-tooltip="Mr Mehul Jain" ><img
                         src="images/team/Mehul_founder.png" data-toggle="modal" data-target=".imgpopup_modal"></div>
-                <h5 style="color: #464646;padding: 15px 0px 10px 0px;">Mehul -Founder</h5>
+                <h5 style="color: #464646;padding: 15px 0px 10px 0px;">Mr Mehul Jain- Co Founder & CTO</h5>
                 <a href="https://www.linkedin.com/in/mehul-jain-13269112/" target="_blank"><img src="images/team/linkedin.png"></a>
             </div>
             <div class="col-md-4" style="padding: 0;margin-top: 2rem;">
-                <div class="imghover" data-tooltip="Vishesh" style="width: fit-content; margin: 0 auto; "><img
-                        src="images/team/Vishesh_Founder.png" data-toggle="modal" data-target=".imgpopup_modal"></div>
+                <div class="imghover" data-tooltip="Dr Vishesh kasliwal" ><img
+                        src="images/team/Vishesh_Founder.png"></div>
 
-                <h5 style="color: #464646;padding: 15px 0px 10px 0px;">Vishesh - Founder</h5>
+                <h5 style="color: #464646;padding: 15px 0px 10px 0px;">Dr Vishesh kasliwal- Co- Founder & CEO</h5>
                 <a href="https://www.linkedin.com/in/dr-vishesh-kasliwal-43261763/" target="_blank"><img src="images/team/linkedin.png"></a>
             </div>
             <div class="col-md-4" style="padding: 0;margin-top: 2rem;">
-                <div class="imghover" data-tooltip="Shruti" style="width: fit-content; margin: 0 auto; "><img
-                        src="images/team/Shruti_Founder.png" data-toggle="modal" data-target=".imgpopup_modal"></div>
+                <div class="imghover" data-tooltip="Ms Shruti Gupta" ><img
+                        src="images/team/Shruti_Founder.png"></div>
 
-                <h5 style="color: #464646;padding: 15px 0px 10px 0px;">Shruti - Founder</h5>
+                <h5 style="color: #464646;padding: 15px 0px 10px 0px;">Ms Shruti Gupta- Co founder </h5>
                 <a href="#"><img src="images/team/linkedin.png"></a>
-            </div>
-
-            <div class="modal fade imgpopup_modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog modal-sm">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <p>Medyseva has identified several problems faced by the people in small towns and villages,
-                                pertaining to healthcare, and seeks to solve most of them in the short run.in small
-                                towns and villages, pertaining to healthcare, and seeks to solve most of them in the
-                                short run.</p>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -234,13 +235,8 @@
                     <div class="row">
                         <div class="col-md-9" style="background-color: #ECEBEB;">
                             <div style="padding: 3%;width: 85%;">
-                                <h3 style="color: #1E1C89;margin-bottom: 1rem;">Consultation</h3>
-                                <p>The primary service provided by Medyseva is online/ teleconsultation. Our goal is to
-                                    make the
-                                    best doctors and specialists available to everyone, irrespective of their location
-                                    or resources.
-                                    Our consultation fee is minimal so that this basic right to healthcare is availed by
-                                    all. </p>
+                                <h3 style="color: #1E1C89;margin-bottom: 1rem;">Pharmacy</h3>
+                                <p>Medyseva has collaborated with local pharmacy stores at each location. In addition, these pharmacy stores are situated just next to the Medyseva centers. In this way, the patient gets all prescribed medicines immediately. And local entrepreneurs are also promoted.  </p>
                             </div>
                         </div>
                         <div class="col-md-3" style="padding: 0;">
@@ -258,8 +254,134 @@
                     </div>
                 </div>
             </div>
+            <div class="carousel-item">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-9" style="background-color: #ECEBEB;">
+                            <div style="padding: 3%;width: 85%;">
+                                <h3 style="color: #1E1C89;margin-bottom: 1rem;">Laboratory</h3>
+                                <p>LaboratorySimilarly, we have collaborated with the best laboratory chains in the country. The samples will be collected at our centers and they will be sent to the nearest lab for testing, after which the reports can also be collected from our centers. The patient does not need to deliver samples or collect reports himself. </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3" style="padding: 0;">
+                            <img src="images/assets/sliderimg2.png" width="100%" height="100%">
+                        </div>
+                    </div>
+                    <div class="d-flex" style="position: absolute; bottom: 0; left: 50%;margin-bottom: 10px;">
+                        <button href="#carouselExampleControls" role="button" data-slide="prev"
+                            style="background: #015C93;cursor: pointer ; border-radius: 4px;padding: 10px;"> <img
+                                src="images/assets/arrow1.png" alt=""> </button>
+                        <span style="font-size: 32px;margin: 0 10px;">03</span>
+                        <button href="#carouselExampleControls" role="button" data-slide="next"
+                            style="background: #015C93;cursor: pointer ; border-radius: 4px;padding: 10px;"> <img
+                                src="images/assets/arrow2.png" alt=""> </button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-9" style="background-color: #ECEBEB;">
+                            <div style="padding: 3%;width: 85%;">
+                                <h3 style="color: #1E1C89;margin-bottom: 1rem;">Radiology   </h3>
+                                <p>Our centers are located in rural areas where good radiology services are not available. This is where we come in. We have collaborations with the best radiology centers in the nearest cities. The patient will be guided throughout the entire process.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3" style="padding: 0;">
+                            <img src="images/assets/sliderimg2.png" width="100%" height="100%">
+                        </div>
+                    </div>
+                    <div class="d-flex" style="position: absolute; bottom: 0; left: 50%;margin-bottom: 10px;">
+                        <button href="#carouselExampleControls" role="button" data-slide="prev"
+                            style="background: #015C93;cursor: pointer ; border-radius: 4px;padding: 10px;"> <img
+                                src="images/assets/arrow1.png" alt=""> </button>
+                        <span style="font-size: 32px;margin: 0 10px;">04</span>
+                        <button href="#carouselExampleControls" role="button" data-slide="next"
+                            style="background: #015C93;cursor: pointer ; border-radius: 4px;padding: 10px;"> <img
+                                src="images/assets/arrow2.png" alt=""> </button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-9" style="background-color: #ECEBEB;">
+                            <div style="padding: 3%;width: 85%;">
+                                <h3 style="color: #1E1C89;margin-bottom: 1rem;">Ambulance</h3>
+                                <p>We provide ambulance service for the patients who come to us for consultations. Even if the patient wants to go to any other hospital of his/ her choice, he/ she can do so, and we will help by providing ambulance services. </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3" style="padding: 0;">
+                            <img src="images/assets/sliderimg2.png" width="100%" height="100%">
+                        </div>
+                    </div>
+                    <div class="d-flex" style="position: absolute; bottom: 0; left: 50%;margin-bottom: 10px;">
+                        <button href="#carouselExampleControls" role="button" data-slide="prev"
+                            style="background: #015C93;cursor: pointer ; border-radius: 4px;padding: 10px;"> <img
+                                src="images/assets/arrow1.png" alt=""> </button>
+                        <span style="font-size: 32px;margin: 0 10px;">05</span>
+                        <button href="#carouselExampleControls" role="button" data-slide="next"
+                            style="background: #015C93;cursor: pointer ; border-radius: 4px;padding: 10px;"> <img
+                                src="images/assets/arrow2.png" alt=""> </button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-9" style="background-color: #ECEBEB;">
+                            <div style="padding: 3%;width: 85%;">
+                                <h3 style="color: #1E1C89;margin-bottom: 1rem;">Home Care Services</h3>
+                                <p>For patients who are advised bedrest or need to stay at home for their long recovery process, we provide trained nurses and other care-takers. </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3" style="padding: 0;">
+                            <img src="images/assets/sliderimg2.png" width="100%" height="100%">
+                        </div>
+                    </div>
+                    <div class="d-flex" style="position: absolute; bottom: 0; left: 50%;margin-bottom: 10px;">
+                        <button href="#carouselExampleControls" role="button" data-slide="prev"
+                            style="background: #015C93;cursor: pointer ; border-radius: 4px;padding: 10px;"> <img
+                                src="images/assets/arrow1.png" alt=""> </button>
+                        <span style="font-size: 32px;margin: 0 10px;">06</span>
+                        <button href="#carouselExampleControls" role="button" data-slide="next"
+                            style="background: #015C93;cursor: pointer ; border-radius: 4px;padding: 10px;"> <img
+                                src="images/assets/arrow2.png" alt=""> </button>
+                    </div>
+                </div>
+            </div>
         </div>
 
+    </div>
+    <div class="container-fluid" id="test" style="background-color: #ffffff;padding-bottom: 3%;">
+        <h3 style="text-align: center;color: #015c93;padding: 2%;">Our Specialities</h3>
+        <p style="text-align: center;color: #5e5e5e;">Cloudline offers excellent maternity services tailor-made for moms-to-be. 
+        You can get all the services for you and your baby under one roof.<br> Right from fertility to maternity care and delivery to 
+        paediatric care we got you covered.
+        </p>
+        <div class="row" style="text-align: center;">
+            <div class="col-md-3" style="margin-top: 2rem;">
+                <img  style=" height:211px;width:211px; border-radius: 50%;" src="images/specialities/Maternity.jfif">
+                <h5 style="color: #464646;padding: 15px 0px 10px 0px; ">Maternity</h5>
+                
+            </div>
+            <div class="col-md-3" style="margin-top: 2rem;" >
+                <img  style=" height:211px;width:211px;border-radius: 50%;" src="images/specialities/Gynaecology.jpg">
+                <h5 style="color: #464646;padding: 15px 0px 10px 0px;">Gynaecology</h5>
+                
+            </div>
+            <div class="col-md-3" style="margin-top: 2rem;">
+                <img style=" height:211px;width:211px;border-radius: 50%;" src="images/specialities/Pediatric.jfif">
+                <h5 style="color: #464646;padding: 15px 0px 10px 0px;">Pediatric</h5>
+                
+            </div>
+            <div class="col-md-3" style="margin-top: 2rem;">
+                <img style=" height:211px;width:211px;border-radius: 50%;" src="images/specialities/Fertility.jpg">
+                <h5 style="color: #464646;padding: 15px 0px 10px 0px;">Fertility</h5>
+                
+            </div>
+
+        </div>
     </div>
     <div class="container-fluid" style="background-color: #73BDEA;padding-bottom: 5%;">
         <h3 style="text-align: center;color: #015c93;padding-top: 3%;">Doctors On Board</h3>
@@ -334,6 +456,7 @@
             </div>
         </div>
     </div>
+ 
     <div class="container-fluid" style="background-color: #fff;padding-bottom: 5%;">
         <h3 style="text-align: center;color: #015c93;padding-top: 3%;">Meet Our Best Specialists </h3>
         <hr class="border3">

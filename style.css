@@ -6,21 +6,36 @@ html {
   font-weight: 400;
 }
 .hero-image {
-  background-image: url('images/Top_Header.jpg');
-  height: 80%;
+  /* background-image: url('images/rect1.png'); */
+  background:#0058B1;
+  height: fit-content;
   background-position: center;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: cover;
   position: relative;
 }
+#bannerRow{  
+  padding-top : 100px;
+  
+}
+.bannerImage{
+  position: relative;
+}
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+  
+}
 
 .hero-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  
+  position: relative;
+  margin-top: 10%;
+  
   color: white;
 }
+
 /*@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 *{
   margin: 0;
@@ -316,6 +331,8 @@ hr.border3 {
   .contactusContainer {
     padding: 20px !important;
   }
+  .bannerImage{display: none}
+  .hero-image{height:40%}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -323,6 +340,7 @@ hr.border3 {
   .contactusContainer {
     padding: 20px !important;
   }
+  
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
