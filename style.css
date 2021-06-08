@@ -334,6 +334,13 @@ hr.border3 {
   }
   .bannerImage{display: none}
   .hero-image{height:40%}
+  .hero-text {
+    text-align: center;
+    position: relative;
+    margin-top: 10%;
+    font-size: 70%;
+    color: white;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
