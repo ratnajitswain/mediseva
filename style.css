@@ -1,7 +1,6 @@
 body,
 html {
   height: 100%;
-  width: 100% !important;
   margin: 0;
   padding:0;
   font-family: 'Alata', sans-serif;
@@ -11,7 +10,6 @@ html {
   /* background-image: url('images/rect1.png'); */
   background:#0058B1;
   height: fit-content;
-  background-position: center;
   width:100%;
   position: relative;
 }
