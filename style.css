@@ -14,7 +14,7 @@ html {
   position: relative;
 }
 #bannerRow{  
-  padding-top : 100px;
+  padding-top : 50px;
   
 }
 .bannerImage{
@@ -114,6 +114,7 @@ input[type='checkbox'] {
   #click:checked ~ ul {
     left: 0;
   }
+  
   nav ul li {
     width: 100%;
     margin: 20px 0;
@@ -331,11 +332,10 @@ hr.border3 {
     padding: 20px !important;
   }
   .bannerImage{display: none}
-  .hero-image{height:40%}
+  
   .hero-text {
     text-align: start;
     position: relative;
-    margin-top: 10%;
     font-size: 70%;
     color: white;
   }
