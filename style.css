@@ -363,3 +363,6 @@ hr.border3 {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 }
+.borderRound{  
+  border-radius: 10px 10px 0px 0px;
+}

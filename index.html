@@ -14,6 +14,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="dist/script.js"></script>
     <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="assets/scss/owl.theme.default.scss">
+<link rel="stylesheet" href="assets/scss/owl.carousel.scss">
+<script src="assets/js/owl.carousel.js"></script>
 </head>
 
 <body>
@@ -170,7 +173,7 @@
         </div>
     </div>
     <div id="leader" class="container-fluid" style="background-color: #73BDEA;padding-bottom: 5%;">
-        <h3 style="text-align: center;color: #015c93;padding-top: 3%;">Leadership team</h3>
+        <h3 style="text-align: center;color: #015c93;padding-top: 3%;">Leadership Team</h3>
         <hr class="border3">
         
         <div class="row" style="text-align: center;">
@@ -403,115 +406,49 @@
 
         </div>
     </div>
-    <div class="container-fluid" id="doctors" style="background-color: #73BDEA;padding-bottom: 5%;">
-        <h3 style="text-align: center;color: #015c93;padding-top: 3%;">Doctors On Board</h3>
-        <hr class="border3">
-        <p style="text-align: center;color: #5e5e5e;width: 70%;margin: auto;padding: 3% 0% 3% 0%;">Our Specialists are the Best and Most Experienced Doctors in India.</p>
-        <div class="row" style="text-align: center;">
-            <div class="col-md-4" style="margin-top: 2rem;">
-                <div class="imghover" data-tooltip="Gitika" style="width: fit-content; margin: 0 auto; "><img  data-toggle="modal" data-target=".imgpopup_modal" src="images/team/Gitika_doctor.png"></div>
-                
-                <h5 style="color: #464646;padding-top: 8px;">Gitika</h5>
-                <p>MBBS MD( DVL) Fellowship in Cosmetology</p>
-            </div>
-            <div class="col-md-4" style="margin-top: 2rem;">
-                <div class="imghover" data-tooltip="Apoorva" style="width: fit-content; margin: 0 auto; "><img  data-toggle="modal" data-target=".imgpopup_modal" src="images/team/Apoorva_doctor.png"></div>
-                
-                <h5 style="color: #464646;padding-top: 8px;">Apoorva</h5>
-            </div>
-            <div class="col-md-4" style="margin-top: 2rem;">
-                <div class="imghover" data-tooltip="kanika" style="width: fit-content; margin: 0 auto; "><img  data-toggle="modal" data-target=".imgpopup_modal" src="images/team/Kanika_doctor.png"></div>
-                
-                <h5 style="color: #464646;padding-top: 8px;">Kanika</h5>
-            </div>
-            <button type="button" class="button btnFade btnYellow"
-                style="margin-right: 100px;margin-left: auto;cursor: pointer;" data-toggle="modal"
-                data-target=".doctor_modal">Know More</button>
-            <div class="modal fade doctor_modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered modal-lg">
-
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="row">
-                                <div class="col-4">
-                                    <img style="width: 100%;height: 80%;" src="images/assets/e1.png" alt="">
-                                    <span>Maternity</span>
-                                </div>
-                                <div class="col-4">
-                                    <img style="width: 100%;height: 80%;" src="images/assets/e2.png" alt="">
-                                    <span>Maternity</span>
-                                </div>
-                                <div class="col-4">
-                                    <img style="width: 100%;height: 80%;" src="images/assets/e3.png" alt="">
-                                    <span>Maternity</span>
-                                </div>
-
-                            </div>
-                            <div class="row">
-                                <div class="col-4">
-                                    <img style="width: 100%;height: 80%;" src="images/assets/e1.png" alt="">
-                                    <span>Maternity</span>
-                                </div>
-                                <div class="col-4">
-                                    <img style="width: 100%;height: 80%;" src="images/assets/e2.png" alt="">
-                                    <span>Maternity</span>
-                                </div>
-                                <div class="col-4">
-                                    <img style="width: 100%;height: 80%;" src="images/assets/e3.png" alt="">
-                                    <span>Maternity</span>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
  
     <div class="container-fluid" style="background-color: #fff;padding-bottom: 5%;">
-        <h3 style="text-align: center;color: #015c93;padding-top: 3%;">Meet Our Best Specialists </h3>
+        <h3 style="text-align: center;color: #015c93;padding-top: 3%;">Doctors On Board </h3>
         <hr class="border3">
         <p style="text-align: center;color: #5e5e5e;width: 70%;margin: auto;padding: 3% 0% 3% 0%;">To ensure that every
             citizen of India has access to high quality doctors and medical services at their convenience and at
             affordable prices.</p>
         <div class="container">
             <div class="row">
-                <div class="col-md-3" style="padding: 16px;">
-                    <img style="width: 100%;" src="images/team/specialists.png">
+                <div class="col-md-3" style="padding: 16px; object-fit: cover;">
+                    <img style="width : 100%;object-fit: cover;"
+                    height= "155px" class="borderRound" src="images/team/Apoorva_doctor.jpeg">
                     <div
                         style="height: 160px;padding: 12px 0px 18px 12px;border-left: 1px solid rgba(0, 0, 0, 0.25);border-right: 1px solid rgba(0, 0, 0, 0.25);border-bottom: 1px solid rgba(0, 0, 0, 0.25);border-radius: 0px 0px 10px 10px;">
-                        <h5 style="color: #464646;">Apoorv Dua</h5>
+                        <h5 style="color: #464646;">Dr. Apoorva Dua</h5>
                         <h6>Master Of Surgery- Orthopaedics</h6>
                         <p>Orthopedics</p>
                     </div>
                 </div>
-                <div class="col-md-3" style="padding: 16px;">
-                    <img style="width: 100%;" src="images/team/specialists.png">
+                <div class="col-md-3" style="padding: 16px; object-fit: cover;">
+                    <img style="width : 100%;object-fit: cover;"
+                    height= "155px" class="borderRound" src="images/team/Gitika_doctor.jpeg">
                     <div
                         style="height: 160px;padding: 12px 0px 18px 12px;border-left: 1px solid rgba(0, 0, 0, 0.25);border-right: 1px solid rgba(0, 0, 0, 0.25);border-bottom: 1px solid rgba(0, 0, 0, 0.25);border-radius: 0px 0px 10px 10px;">
-                        <h5 style="color: #464646;">Manas Naik</h5>
-                        <h6>MD- Paediatrics</h6>
+                        <h5 style="color: #464646;">Dr. Gitika Patni</h5>
+                        <h6>Dermatology</h6>
                         <p>Pediatrics</p>
                     </div>
                 </div>
-                <div class="col-md-3" style="padding: 16px;">
-                    <img style="width: 100%;" src="images/team/specialists.png">
+                <div class="col-md-3" style="padding: 16px; object-fit: cover; ">
+                    <img width= "100%;"
+                    height= "155px" class="borderRound"  src="images/team/Kanika_doctor.jpeg">
                     <div
                         style="height: 160px;padding: 12px 0px 18px 12px;border-left: 1px solid rgba(0, 0, 0, 0.25);border-right: 1px solid rgba(0, 0, 0, 0.25);border-bottom: 1px solid rgba(0, 0, 0, 0.25);border-radius: 0px 0px 10px 10px;">
-                        <h5 style="color: #464646;">Anagha Sinha</h5>
-                        <h6>Diloma In Psychiatry (D.P.M.)</h6>
+                        <h5 style="color: #464646;">Dr. Kanika Jham</h5>
+                        <h6>MD-General Medicine - Internal Medicine</h6>
                         <p>Psychiatry</p>
                     </div>
                 </div>
-                <div class="col-md-3" style="padding: 16px;">
-                    <img style="width: 100%;" src="images/team/specialists.png">
+                <div class="col-md-3" style="padding: 16px; object-fit: cover; ">
+                    <img width= "100%; object-fit: cover;"
+                    height= "155px" class="borderRound" src="images/team/img_avatar.png">
                     <div
                         style="height: 160px;padding: 12px 0px 18px 12px;border-left: 1px solid rgba(0, 0, 0, 0.25);border-right: 1px solid rgba(0, 0, 0, 0.25);border-bottom: 1px solid rgba(0, 0, 0, 0.25);border-radius: 0px 0px 10px 10px;">
                         <h5 style="color: #464646;">Sheetal Khandelwal</h5>
