@@ -1,7 +1,9 @@
 body,
 html {
   height: 100%;
+  width: 100% !important;
   margin: 0;
+  padding:0;
   font-family: 'Alata', sans-serif;
   font-weight: 400;
 }
@@ -10,8 +12,7 @@ html {
   background:#0058B1;
   height: fit-content;
   background-position: center;
-  /* background-repeat: no-repeat; */
-  background-size: cover;
+  width:100%;
   position: relative;
 }
 #bannerRow{  
