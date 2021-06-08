@@ -333,7 +333,7 @@ hr.border3 {
   .bannerImage{display: none}
   .hero-image{height:40%}
   .hero-text {
-    text-align: center;
+    text-align: start;
     position: relative;
     margin-top: 10%;
     font-size: 70%;
