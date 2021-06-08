@@ -1,0 +1,107 @@
+[  
+    {  
+        "name": "Kanika Jham",
+        "speciality":"Internal Medicine",
+        "image":"Kanika_doctor.jpeg"
+    },
+    {  
+        "name": "Gitika Patni",
+        "speciality":"Dermatologist",
+        "image":"Gitika_doctor.jpeg"
+    },
+    {  
+        "name": "Apoorv Dua",
+        "speciality":"Orthopedician",
+        "image":"Apoorva_doctor.jpeg"
+    },
+    {  
+        "name": "Sarika Anand",
+        "speciality":"Obsterics and Gynaecology",
+        "image":""
+    },
+    {  
+        "name": "Rucha Rampaliwar",
+        "speciality":"General Surgeon",
+        "image":""
+    },
+    {  
+        "name": "Manas Naik",
+        "speciality":"Internal Medicine",
+        "image":""
+    },
+    {  
+        "name": "Manas Naik",
+        "speciality":"Pediastrian",
+        "image":""
+    },
+    {  
+        "name": "Rohini Pardi",
+        "speciality":"Opthalomologist",
+        "image":""
+    },
+    {  
+        "name": "Anagha Sinha",
+        "speciality":"Psychiatrist",
+        "image":""
+    },
+    {  
+        "name": "Anuj Singhal",
+        "speciality":"Opthalomologist",
+        "image":""
+    },
+    {  
+        "name": "Sagar Gandhi",
+        "speciality":"Pulmonologist",
+        "image":""
+    },
+    {  
+        "name": "Nipun Puranik",
+        "speciality":"Neurologist",
+        "image":""
+    },
+    {  
+        "name": "Manish Ganwani",
+        "speciality":"Cardiologist",
+        "image":""
+    },
+    {  
+        "name": "Sheetal Khandelwal",
+        "speciality":"Dentist",
+        "image":""
+    },
+    {  
+        "name": "Chhavi Jain",
+        "speciality":"Physiotherapist",
+        "image":""
+    },
+    {  
+        "name": "Dibya Madharia",
+        "speciality":"Orthopedician",
+        "image":""
+    },
+    {  
+        "name": "Rashika Pise",
+        "speciality":"Obsterics and Gynaecology",
+        "image":""
+    },
+    {  
+        "name": "Rohit Jain",
+        "speciality":"Pediastrian",
+        "image":""
+    },
+    {  
+        "name": "Chirag  Dausage",
+        "speciality":"General Surgeon",
+        "image":""
+    },
+    {  
+        "name": "Sharandeep",
+        "speciality":"Pediastrian",
+        "image":""
+    },
+    {  
+        "name": "Abhisek Laddha",
+        "speciality":"Urologist",
+        "image":""
+    }
+]
