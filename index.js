@@ -66,7 +66,7 @@ $(document).ready(function(){
                   
                 <img height="155px" class="borderRound" src="images/thumbnail/${d.thumbnail}">
                 <div
-                    style="height: 160px;padding: 12px 0px 18px 12px;background-color: #fff;border-radius: 0px 0px 10px 10px;">
+                    style="height: 80px;padding: 12px 0px 18px 12px;background-color: #fff;border-radius: 0px 0px 10px 10px;">
                     <h5 style="color: #464646;">${d.title}</h5>
                     <p>${d.Description}</p>
                     
