@@ -1,0 +1,59 @@
+[  
+    {  
+        "title": "Internal Medicine",
+        "url":"internalmed.jpeg"
+    },  {  
+        "title": "Physiotherapy",
+        "url":"physio.jpeg"
+    },  {  
+        "title": "",
+        "url":"dentist.jpeg"
+    },  {  
+        "title": "Dermatology",
+        "url":"dermatologist.jpeg"
+    },
+    {  
+      
+      
+        "title": "Orthopedics",
+        "url":"orthopediac.jpeg"
+    },  {  
+        "title": "Obstertrics and gynaecology",
+        "url":"obster.jpeg"
+    },  {  
+        "title": "Pediatrics",
+        "url":"Pediatric.jfif"
+    },  {  
+        "title": "General surgery",
+        "url":"generalsurg.jpeg"
+    },  {  
+        "title": "Psychiatry",
+        "url":"psychiatry.jpeg"
+    },  {  
+        "title": "Otolaryngology",
+        "url":"otalary.jpeg"
+    },  {  
+        "title": "Pulmonology",
+        "url":"pulmology.jpeg"
+    },  {  
+        "title": "Neurology",
+        "url":"neuro.jpeg"
+    },  {  
+        "title": "Cardiology",
+        "url":"cardio.jpeg"
+    },  {  
+        "title": "Gastroenterologist",
+        "url":"gas.jpeg"
+    },  {  
+        "title": "Urology",
+        "url":"uro.jpeg"
+    },  {  
+        "title": "Nephrology",
+        "url":"Nephrology.jpg"
+    },  {  
+        "title": "Dentistry",
+        "url":"dentist.jpeg"
+    },  {  
+        "title": "Physiotherapy",
+        "url":"physio.jpeg"
+    }]

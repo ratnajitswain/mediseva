@@ -62,6 +62,64 @@ $(document).ready(function(){
             })
         }
     )
+
+
+    $.getJSON("./data/specialities.json", function(data){
+        $('#specialSlider').html('')
+        
+            console.log(data)
+            data.forEach((i)=>{
+                var specTable = `<tr>
+                <td>
+                ${i.title}
+                </td>
+                
+            </tr>`  
+            $('#specTable').append(specTable)
+                
+               var specs = `<div  style="margin-top: 2rem;">
+               <img height="211px" style="border-radius: 50%;" src="images/specialities/${i.url}">
+               <h5 style="color: #464646;padding: 15px 0px 0px 0px;">${i.title}</h5>
+               
+           </div>`
+            $('#specialSlider').append(specs)
+            })
+            $('#specialSlider').owlCarousel({
+                loop:true,
+                margin:10,
+                responsiveClass:true,
+                autoplay:true,
+                autoplayTimeout: 2000,
+                        autoplayspeed:2000,
+            
+                        
+                responsive:{
+                    0:{
+                        items:1,
+                        
+                        center: true,
+                        loop:true,
+                       
+                    },
+                    600:{
+                        items:3,
+                       
+                        center: true,
+                        loop:true,
+                       
+                    },
+                    1000:{
+                        items:4,
+                       
+                        loop:true
+                        
+                    }
+                }
+            })
+        }
+    )
+
+
     $.getJSON("./data/blogs.json", function(data){
         $('#blogContent').html('')
         console.log(data)
