@@ -3,7 +3,16 @@ $(document).ready(function(){
         $('#doctData').html('')
         
             console.log(data)
-            data.forEach((i)=>{  
+            data.forEach((i)=>{
+                var doctTable = `<tr>
+                <td>
+                ${i.name}
+                </td>
+                <td>
+                ${i.speciality}
+                   </td>
+            </tr>`  
+            $('#doctorTable').append(doctTable)
                 if(i.image==""){  
                     i.image= "img_avatar.png"
                 }
@@ -123,14 +132,14 @@ $(document).ready(function(){
                    
                 },
                 600:{
-                    items:3,
+                    items:2,
                    
                     center: true,
                     loop:false,
                    
                 },
                 1000:{
-                    items:4,
+                    items:3,
                    
                     loop:false
                     

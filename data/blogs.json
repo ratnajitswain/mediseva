@@ -2,19 +2,19 @@
     {   "type":"video",
         "title": "Medyseva Video 01",
         "Description":"",
-        "url":"https://youtu.be/F9zAPJ14WCQ",
+        "url":"https://www.youtube.com/watch?v=F9zAPJ14WCQ",
         "thumbnail":"thumb1.jpg"
     },
     {   "type":"video",
         "title": "Medyseva Video 02",
         "Description":"",
-        "url":"https://youtu.be/HMXimm-ydLo",
-        "thumbnail":"thumb2.jpg"
+        "url":"https://www.youtube.com/watch?v=HMXimm-ydLo",
+        "thumbnail":"thumb3.jpg"
     },
     {   "type":"video",
         "title": "Medyseva Video 03",
         "Description":"",
-        "url":"https://youtu.be/LSLgLymicV8",
-        "thumbnail":"thumb3.jpg"
+        "url":"https://www.youtube.com/watch?v=LSLgLymicV8",
+        "thumbnail":"thumb2.jpg"
     }
 ]
